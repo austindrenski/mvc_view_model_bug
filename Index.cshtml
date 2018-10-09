@@ -1,0 +1,15 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model mvc_view_model_bug.ExampleModel
+
+<!doctype html>
+<html>
+    <head>
+        <title>mvc_view_model_bug</title>
+    </head>
+    <body>
+        <form asp-controller="Example" asp-action="Index">
+            <input asp-for="ExampleProperty"/>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
